@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f7f7fb" />
+    <title>库存确认 · PDA 动态演示</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="desktop-shell">
+      <aside class="demo-guide" aria-label="演示说明">
+        <div class="brandline">
+          <span class="brand-mark">PDA</span><span>机器人门店 / 交互演示</span>
+        </div>
+        <p class="eyebrow">需求 4 · 库存确认</p>
+        <h1>把库存去向<br />确认到每件商品</h1>
+        <p class="guide-copy">
+          从「我的」进入库存确认，搜索订单或商品，确认机器人未能定位的商品是否已回到货架。
+        </p>
+        <div class="guide-rule">
+          <span>01</span>
+          <p><strong>已放回架上</strong><br />模拟释放占用库存</p>
+        </div>
+        <div class="guide-rule">
+          <span>02</span>
+          <p><strong>没找到，也不在货架上</strong><br />模拟系统临时盘点扣除</p>
+        </div>
+        <p class="guide-note">
+          示例数据与处理结果只存在当前页面内。刷新即可重置，不触碰真实库存。
+        </p>
+        <a
+          class="source-link"
+          href="https://sudaornd.feishu.cn/wiki/Ltymwe0oVip46GkWZu8cSUhJn0f?renamingWikiNode=true"
+          target="_blank"
+          rel="noreferrer"
+          >查看需求原文 ↗</a
+        >
+      </aside>
+      <main class="preview-wrap">
+        <div class="preview-caption">
+          <span>掌店易 PDA</span><span>390 × 844</span>
+        </div>
+        <div class="device" id="device"><div id="app"></div></div>
+        <p class="preview-note">交互演示 · 前端模拟数据</p>
+      </main>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

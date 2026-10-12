@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_key": "pda-stock-confirm-demo",
+  "source": {
+    "kind": "feishu-prd-and-image-reference",
+    "url_or_path": "https://sudaornd.feishu.cn/wiki/Ltymwe0oVip46GkWZu8cSUhJn0f?renamingWikiNode=true",
+    "document_id": "REC6deCaIod6NcxLDy5cFpyNnfe",
+    "revision": "960",
+    "read_at": "2026-10-12"
+  },
+  "demo": {
+    "path": ".",
+    "delivery_type": "concept-html",
+    "last_success_revision": "960",
+    "last_success_at": "2026-10-12",
+    "snapshot": ".codex/create-demo/snapshots/source-r960.md",
+    "qa": "8 browser/model tests passed; 390x844, 320x700, 1280x800, 1440x900 checked"
+  }
+}
